@@ -119,7 +119,7 @@ under the License.
     commit_count = 1
 
     # get number of contributors
-    contributor_count=1
+    contributor_count = 1
 
     print(f"This release consists of {commit_count} commits from {contributor_count} contributors. "
           f"See credits at the end of this changelog for more information.\n")
@@ -135,7 +135,7 @@ under the License.
     print_pulls(repo_name, "Other", other)
 
     # show code contributions
-    credit = 
+    credit = 1
 
     print("## Credits\n")
     print("Thank you to everyone who contributed to this release. Here is a breakdown of commits (PRs merged) "
