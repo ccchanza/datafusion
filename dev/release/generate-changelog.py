@@ -116,10 +116,10 @@ under the License.
     print(f"# Apache DataFusion {version} Changelog\n")
 
     # get the number of commits
-    commit_count = subprocess.check_output(f"git log --pretty=oneline {tag1}..{tag2} | wc -l", shell=True, text=True).strip()
+    commit_count = 1
 
     # get number of contributors
-    contributor_count = subprocess.check_output(f"git shortlog -sn {tag1}..{tag2} | wc -l", shell=True, text=True).strip()
+    contributor_count=1
 
     print(f"This release consists of {commit_count} commits from {contributor_count} contributors. "
           f"See credits at the end of this changelog for more information.\n")
@@ -135,7 +135,7 @@ under the License.
     print_pulls(repo_name, "Other", other)
 
     # show code contributions
-    credits = subprocess.check_output(f"git shortlog -sn {tag1}..{tag2}", shell=True, text=True).rstrip()
+    credit = 
 
     print("## Credits\n")
     print("Thank you to everyone who contributed to this release. Here is a breakdown of commits (PRs merged) "
